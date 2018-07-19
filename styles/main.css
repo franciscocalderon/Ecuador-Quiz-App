@@ -65,3 +65,16 @@ header, header * {
 }
 
 
+.feedback-img {
+	height: 125px;
+	width: 125px;
+	margin: 5px;
+}
+
+.feedback-txt {
+	padding: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
