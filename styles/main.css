@@ -1,0 +1,67 @@
+header {
+	background-color: gold;
+}
+
+header, header * {
+	text-align: center;
+}
+
+
+.quiz-frame {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.option {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.option:not(.highlighted):hover{
+	background: lightblue;
+}
+
+.option.highlighted:hover{
+	background: lightgrey;
+}
+
+.option input{
+	padding: 5px;
+}
+
+.highlighted {
+	background: blue;
+}
+
+.quiz-frame *{
+	text-align: center;
+}
+
+.row *{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}
+
+.options{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.question button{
+	width: 100%;
+}
+
+
+.question button span{
+	display: block;
+	padding: 10px;
+}
+
+
